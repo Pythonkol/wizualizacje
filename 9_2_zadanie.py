@@ -57,3 +57,12 @@ plot.fig.suptitle("Specjalne projekty vs wiek", y=1.03)
 plt.tight_layout()
 plt.show()
 plt.close()
+
+#Wnioski
+
+print("1. Ocena jest zależna od menagera, efektywność jest zależna pod którym menadżerem są pracownicy, mimo to mediana jest na poziomie spełniania oczekiwań. U niektórych menadzerów w zespole są konieczne szkolenia.")
+print("2. Najlepszą drogą do pozyskania zaufanego wieloletniego pracownika są kategoria Other, a także Bilboard i profesional society. Najgorsze to Indeed tam większość pracowników pracuje maksymalnie 3 lata.")
+print("3. większość grup ma ten sam rozkład zadowolenia mediana również jest na podobnym poziomie. Nie ma silnej zależnosći, jedynie osoby w separacji moga zachowywać się nerwowo z uwagi na rozciągnięty rozkład. Skupienie następuje dla osób którzy są wdowami/wdowcami")
+print("4. Największa grupa pracownikó to pracownicy 30-45 lat. Najmniej w okolicach 60 lat, jest grupa około 20 osób w przedziale +60 najstarsi pracowncy mają 70 a najmłodsi ok. 28 lat" )
+print("5. Starsi pracownicy pracują mniej nad specjalistycznymi projektami wobec młodszych pracowników, głownie do 55 lat pracują nad takimi projektami. Róznice nie są ogromne.")
+

@@ -43,5 +43,16 @@ print("Najmłodszy album został wydany w roku:", new_album_year)
 
 first_albums = df.sort_values(by='Rok').drop_duplicates(subset='Artysta', keep='first')
 
+# Najwcześniejsze wydanie dla każdego artysty
+first_albums = (
+    df
+    .sort_values(by='Rok', ascending=True)
+    .drop_duplicates(subset='Artysta', keep='first')
+    .reset_index(drop=True)
+)
+
+print("Najwcześniejsze albumy każdego artysty (pierwsze z listy):")
+print(first_albums[['Artysta', 'Tytuł', 'Rok']])
+
 # Zapis do pliku CSV
 first_albums.to_csv('albumy.csv', index=False)
